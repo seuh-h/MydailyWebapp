@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.total {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  cursor: pointer;
+}
+
+.cardMeta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.cardDate {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.arrow {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.cardBody {
+  padding: 0 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+}
+
+.cardText {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text);
+  white-space: pre-wrap;
+}
+
+.cardEmotion {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.cardSummary {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.deleteBtn {
+  align-self: flex-end;
+  background: #fff0f0;
+  color: #ff6b6b;
+  border: 1px solid #ffd0d0;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 60px 0;
+  color: var(--text-muted);
+}
+
+.emptyIcon {
+  font-size: 48px;
+}
+
+.emptyHint {
+  font-size: 13px;
+  color: #ccc;
+}

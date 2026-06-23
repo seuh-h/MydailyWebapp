@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.select {
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: var(--text);
+  background: var(--surface);
+  font-family: inherit;
+}
+
+.typeToggle {
+  display: flex;
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.typeToggle button {
+  padding: 8px 14px;
+  background: var(--surface);
+  font-size: 13px;
+  color: var(--text-muted);
+  font-family: inherit;
+}
+
+.typeToggle button.activeType {
+  background: var(--primary);
+  color: white;
+  font-weight: 600;
+}
+
+.summaryCard {
+  background: var(--primary-light);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.summaryLabel {
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.summaryEmotion {
+  font-size: 15px;
+  color: var(--primary);
+}
+
+.chartCard {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 16px;
+}
+
+.emotionGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.emotionItem {
+  background: var(--surface);
+  border-radius: 10px;
+  border: 1.5px solid;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 60px 0;
+  color: var(--text-muted);
+}
+
+.emptyIcon {
+  font-size: 48px;
+}
