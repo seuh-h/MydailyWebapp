@@ -1,0 +1,1 @@
+{"name":"내 감정 일기장","short_name":"감정일기","description":"AI가 감정을 분석해주는 하루 한 줄 일기장","start_url":"/MydailyWebapp/","display":"standalone","background_color":"#f8f7ff","theme_color":"#6c63ff","lang":"en","scope":"/MydailyWebapp/","icons":[{"src":"diary-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
